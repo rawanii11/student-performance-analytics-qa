@@ -2,7 +2,7 @@ marks = [85, 90, 88]
 total = 0
 
 for mark in marks:
-    total += mark
+   total += mark * 1
 
 average = total / len(marks)
 
