@@ -1,19 +1,17 @@
-Input number of subjects n
-Set total = 0
+marks = [85, 90, 88]
+total = 0
 
-FOR i = 1 to n
-    Input mark
-    total = total + mark
-END FOR
+for mark in marks:
+    total += mark
 
-average = total / n
+average = total / len(marks)
 
-IF average >= 75
-    Display "Excellent Performance"
-ELSE IF average >= 50
-    Display "Average Performance"
-ELSE
-    Display "Weak Performance"
-END IF
+if average >= 80:
+    performance = "Excellent"
+elif average >= 50:
+    performance = "Average"
+else:
+    performance = "Needs Improvement"
 
-
+print("Average:", average)
+print("Performance:", performance)
