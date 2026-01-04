@@ -1,0 +1,20 @@
+START
+Input number of subjects n
+Set total = 0
+
+FOR i = 1 to n
+    Input mark
+    total = total + mark
+END FOR
+
+average = total / n
+
+IF average >= 75
+    Display "Excellent Performance"
+ELSE IF average >= 50
+    Display "Average Performance"
+ELSE
+    Display "Weak Performance"
+END IF
+
+END
