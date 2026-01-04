@@ -1,1 +1,2 @@
-
+Loop branch: adjust something inside the loop (e.g., range(5) → range(7)).
+Condition branch: change something inside the if–else (e.g., > → >=).
