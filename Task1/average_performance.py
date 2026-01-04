@@ -6,7 +6,7 @@ for mark in marks:
 
 average = total / len(marks)
 
-if average >= 80:
+if average >= 75:
     performance = "Excellent"
 elif average >= 50:
     performance = "Average"
